@@ -3,7 +3,7 @@
 #include <memory>
 
 #include "Core.h"
-#include "spdlog/spdlog.h"
+#include <spdlog/spdlog.h>
 
 
 using logger_ptr_t = std::shared_ptr<spdlog::logger>;
